@@ -1,0 +1,33 @@
+
+.dashboard-container {
+  min-height: 100vh;
+  background: #f5f7fb;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.dashboard-wrapper {
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.dashboard-wrapper > * {
+  background: transparent;
+}
+
+
+@media (max-width: 768px) {
+  .dashboard-container {
+    padding: 20px 12px;
+  }
+
+  .dashboard-wrapper {
+    gap: 15px;
+  }
+}
